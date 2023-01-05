@@ -1,115 +1,85 @@
 {
     "basic_info": {
-      "description_header": "Cześć",
-      "description": "👋 Jestem Davina Griss. Fikcyjna osoba na potrzeby demonstracji. Pracuję z najnowszymi frameworkami front-end takimi jak Angular, React i Vue. To co teraz widzisz to szablon portfolio od Dorota1997. Jeżeli podoba Ci się ten szablon portfolio nie zapomnij o ⭐, żeby było bardziej rozpoznawalne dla innych użytkowników. Dzięki 💜",
+      "titles": [ "Desarrollador Full Stack", "Desarrollador de Software", "Handyman" ],
+      "description_header": "Hola!",
+      "description": "Mi nombre es Hector Cedeno-Indriago.",
       "section_name": {
-        "about": "O mnie",
-        "projects": "Projekty",
-        "skills": "Umiejętności",
-        "experience": "Doświadczenie"
+        "about": "Acerca de mi",
+        "projects": "Proyectos",
+        "skills": "Habilidades",
+        "experience": "Experiencia"
       }
     },
     "projects": [
-      {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "Najbardziej rozbudowana aplikacja nad którą miałam okazję pracować. Poznałam dużo technologii a mój kod by sprawdzany przez super opiekuna. Aplikacja obsługuje wszystkie procesy adopcji i pozwala na przechowywanie wszelkiej dokumentacji związanej z adopcją zwierząt ze schroniska.",
-        "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
-        ],
-        "url": "",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Osobisty projekt na przedmiot ze studiów. Byłam odpowiedzilna za testowanie aplikacji, która optymalizuje zdjęcia z pomocą popularnych algorytmów używanych przed edytory grafiki takie jak Pixlr czy Adobe Photoshop. Otrzymałam 5-tkę za projekt :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "Jedna z pierwszych aplikacji nad którymi pracowałam na stażu. Musiałam przygotować front-end dla aplikacji, która pokazuje modele 3D znanych budynków. To był także mój pierwszy projekt w frameworku Angular. Dużo się nauczyłam!",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      }
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - obecnie",
+        "company": "TaskRabbit",
+        "icon": "fas fa-tools experience-icon",
+        "title": "Tasker",
+        "years": "03.2022 - present",
         "mainTech": [
-          "Angular 8/9/10"
+          "Handyman"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          "Angular Material"
+          "Power Tools",
+          "Hardware Installation",
+          "Home Improvement"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Stażystka",
-        "years": "01.2018 - 09.2019",
+        "company": "Uber Eats",
+        "icon": "fas fa-car experience-icon",
+        "title": "Delivery Partner",
+        "years": "09.2019 - present",
         "mainTech": [
-          "Angular 7/8"
+          "Food Delivery"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "Swagger",
-          "JavaScript",
-          "DHTMLX Gantt"
+          "Commercial Driving",
+          "Customer Service",
+          "Communication Skills"
+        ]
+      },
+      {
+        "company": "FedEx Ground",
+        "icon": "fas fa-truck-loading experience-icon",
+        "title": "Package Handler",
+        "years": "11.2020 - 02.2021",
+        "mainTech": [
+          "Loading and Unloading"
+        ],
+        "technologies": [
+          "Communcation Skills",
+          "Critical Thinking",
+          "Versatility"
+        ]
+      },
+      {
+        "company": "UIC Forum",
+        "icon": "fas fa-chair experience-icon",
+        "title": "Operations Team Member",
+        "years": "09.2019 - 02.2020",
+        "mainTech": [
+          "Event Staffing"
+        ],
+        "technologies": [
+          "Versatility",
+          "Flexibility",
+          "Critical Thinking"
+        ]
+      },
+      {
+        "company": "Sims Recycling Solutions",
+        "icon": "fas fa-recycle experience-icon",
+        "title": "",
+        "years": "08.2017 - 12.2019",
+        "mainTech": [
+          "Recycling Operations"
+        ],
+        "technologies": [
+          "Heavy Machinery Use",
+          "Hazmat"
         ]
       }
     ]

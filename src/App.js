@@ -82,7 +82,10 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Header sharedData={this.state.sharedData.basic_info} />
+        <Header 
+          sharedData={this.state.sharedData.basic_info} 
+          resumeData={this.state.resumeData.basic_info}  
+        />
         <div className="col-md-12 mx-auto text-center language">
           <div
             onClick={() =>
@@ -111,7 +114,7 @@ class App extends Component {
           >
             <span
               className="iconify language-icon"
-              data-icon="twemoji-flag-for-flag-poland"
+              data-icon="twemoji-flag-for-flag-spain"
               data-inline="false"
               id={window.$secondaryLanguageIconId}
             ></span>
