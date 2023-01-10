@@ -3,9 +3,9 @@
     "titles": [ "Full Stack Developer", "Software Developer", "Handyman" ],
     "description_header": "Hello!",
     "description": [
-      "I'm Hector Cedeno-Indriago. I am an upcoming Computer Science graduate. This portfolio is a work in progress. Most of ", 
-      "the projects displayed below are course projects. Some have significant portions authored by instructors, while others are ", 
-      "unfinished. However, none of them have a lack in hard work from my part. Thanks for reviewing my portfolio!"       
+      "I'm Hector Cedeno-Indriago. I am an upcoming Computer Science graduate. This portfolio is a work in progress. ", 
+      "The projects displayed below are course projects. Some have significant portions authored by instructors.", 
+      ". However, none of them have a lack in hard work and use of the course-taught knowledge from my part. Thanks for reviewing my portfolio!"       
     ],
     "section_name": {
       "about": "About me",
@@ -46,7 +46,8 @@
         "This project was developed under the instruction of Balajee Vamanan, for the Intro. to Networking (CS 450) course in the University of Illinois-Chicago."
       ],
       "images": [
-        ""
+        "images/portfolio/tcp-protocol/p1.jpg",
+        "images/portfolio/tcp-protocol/p2.jpg"
       ],
       "url": "https://github.com/uic-cs450/programming-assignment-6-hcedenoindri",
       "technologies": [
