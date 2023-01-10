@@ -1,106 +1,131 @@
 {
-    "basic_info": {
-      "titles": [ "Full Stack Developer", "Software Developer", "Handyman" ],
-      "description_header": "Hello!",
-      "description": [
-        "I'm Hector Cedeno-Indriago. I am an upcoming Computer Science graduate. This portfolio is a work in progress. Most of ", 
-        "the projects displayed below are course projects. Some have significant portions authored by instructors, while others are ", 
-        "unfinished. However, none of them have a lack in hard work from my part. Thanks for reviewing my portfolio!"       
-      ],
-      "section_name": {
-        "about": "About me",
-        "projects": "Projects",
-        "skills": "Skills",
-        "experience": "Experience"
-      }
-    },
-    "projects": [
-      {
-        "title": "Compiler for Albatross",
-        "startDate": "2022",
-        "description": "The latest project I have worked on. It is a compiler designed to translate the Albatross language into assembly instructions. It was co-developed by me and Luis Pina (instructor), for the CS 473 course in the University of Illinois-Chicago.",
-        "images": [
-          "images/portfolio/compiler/p1.jpg",
-          "images/portfolio/compiler/p2.jpg"
-        ],
-        "url": "",
-        "technologies": [
-          {
-            "class": "devicon-c-plain",
-            "name": "C"
-          }
-        ]
-      }
+  "basic_info": {
+    "titles": [ "Full Stack Developer", "Software Developer", "Handyman" ],
+    "description_header": "Hello!",
+    "description": [
+      "I'm Hector Cedeno-Indriago. I am an upcoming Computer Science graduate. This portfolio is a work in progress. Most of ", 
+      "the projects displayed below are course projects. Some have significant portions authored by instructors, while others are ", 
+      "unfinished. However, none of them have a lack in hard work from my part. Thanks for reviewing my portfolio!"       
     ],
-    "experience": [
-      {
-        "company": "TaskRabbit",
-        "icon": "fas fa-tools experience-icon",
-        "title": "Tasker",
-        "years": "03.2022 - present",
-        "mainTech": [
-          "Handyman"
-        ],
-        "technologies": [
-          "Power Tools",
-          "Hardware Installation",
-          "Home Improvement"
-        ]
-      },
-      {
-        "company": "Uber Eats",
-        "icon": "fas fa-car experience-icon",
-        "title": "Delivery Partner",
-        "years": "09.2019 - present",
-        "mainTech": [
-          "Food Delivery"
-        ],
-        "technologies": [
-          "Commercial Driving",
-          "Customer Service",
-          "Communication Skills"
-        ]
-      },
-      {
-        "company": "FedEx Ground",
-        "icon": "fas fa-truck-loading experience-icon",
-        "title": "Package Handler",
-        "years": "11.2020 - 02.2021",
-        "mainTech": [
-          "Loading and Unloading"
-        ],
-        "technologies": [
-          "Communcation Skills",
-          "Critical Thinking",
-          "Versatility"
-        ]
-      },
-      {
-        "company": "UIC Forum",
-        "icon": "fas fa-chair experience-icon",
-        "title": "Operations Team Member",
-        "years": "09.2019 - 02.2020",
-        "mainTech": [
-          "Event Staffing"
-        ],
-        "technologies": [
-          "Versatility",
-          "Flexibility",
-          "Critical Thinking"
-        ]
-      },
-      {
-        "company": "Sims Recycling Solutions",
-        "icon": "fas fa-recycle experience-icon",
-        "title": "Operations Associate",
-        "years": "08.2017 - 12.2019",
-        "mainTech": [
-          "Recycling Operations"
-        ],
-        "technologies": [
-          "Heavy Machinery Use",
-          "Hazmats"
-        ]
-      }
-    ]
-  }
+    "section_name": {
+      "about": "About me",
+      "projects": "Projects",
+      "skills": "Skills",
+      "experience": "Experience"
+    }
+  },
+  "projects": [
+    {
+      "title": "Compiler for Albatross",
+      "startDate": "09/2022 - 12/2022",
+      "description": [
+        "The latest project I have worked on. It is a compiler designed to translate the Albatross language into assembly instructions.", 
+        "It was developed under the guidance, and around the body of code provided by Luis Pina (instructor), for the Compiler Design (CS 473) course in the",  
+        "University of Illinois-Chicago."
+      ],
+      "images": [
+        "images/portfolio/compiler/p1.jpg",
+        "images/portfolio/compiler/p2.jpg"
+      ],
+      "url": "https://github.com/hcedenoindri/albatross-compiler",
+      "technologies": [
+        {
+          "class": "devicon-c-plain",
+          "name": "C"
+        }
+      ]
+    },
+    {
+      "title": "Network Protocol Implementation",
+      "startDate": "01/2022 - 04/2022",
+      "description": [
+        "This project focused on the programming and implementation of a TCP-like network protocol. The protocol makes use of multiple algorithms and strategies utilized in TCP",
+        "such as: 3-way handshakes for connection establishment, ordered data transfer using SYNs and ACKs, ACK-signaled retransmission, timeout-based retransmission,", 
+        "Sliding Window flow control, slow start, congestion avoidance using a Congestion Window, fast-retransmit, fast-recovery, retransmission timeout using weighted RTT, and", 
+        "4-way handshakes for connection termination,", 
+        "This project was developed under the instruction of Balajee Vamanan, for the Intro. to Networking (CS 450) course in the University of Illinois-Chicago."
+      ],
+      "images": [
+        ""
+      ],
+      "url": "https://github.com/uic-cs450/programming-assignment-6-hcedenoindri",
+      "technologies": [
+        {
+          "class": "devicon-python-plain",
+          "name": "Python"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "TaskRabbit",
+      "icon": "fas fa-tools experience-icon",
+      "title": "Tasker",
+      "years": "03.2022 - present",
+      "mainTech": [
+        "Handyman"
+      ],
+      "technologies": [
+        "Power Tools",
+        "Hardware Installation",
+        "Home Improvement"
+      ]
+    },
+    {
+      "company": "Uber Eats",
+      "icon": "fas fa-car experience-icon",
+      "title": "Delivery Partner",
+      "years": "09.2019 - present",
+      "mainTech": [
+        "Food Delivery"
+      ],
+      "technologies": [
+        "Commercial Driving",
+        "Customer Service",
+        "Communication Skills"
+      ]
+    },
+    {
+      "company": "FedEx Ground",
+      "icon": "fas fa-truck-loading experience-icon",
+      "title": "Package Handler",
+      "years": "11.2020 - 02.2021",
+      "mainTech": [
+        "Loading and Unloading"
+      ],
+      "technologies": [
+        "Communcation Skills",
+        "Critical Thinking",
+        "Versatility"
+      ]
+    },
+    {
+      "company": "UIC Forum",
+      "icon": "fas fa-chair experience-icon",
+      "title": "Operations Team Member",
+      "years": "09.2019 - 02.2020",
+      "mainTech": [
+        "Event Staffing"
+      ],
+      "technologies": [
+        "Versatility",
+        "Flexibility",
+        "Critical Thinking"
+      ]
+    },
+    {
+      "company": "Sims Recycling Solutions",
+      "icon": "fas fa-recycle experience-icon",
+      "title": "Operations Associate",
+      "years": "08.2017 - 12.2019",
+      "mainTech": [
+        "Recycling Operations"
+      ],
+      "technologies": [
+        "Heavy Machinery Use",
+        "Hazmats"
+      ]
+    }
+  ]
+}
