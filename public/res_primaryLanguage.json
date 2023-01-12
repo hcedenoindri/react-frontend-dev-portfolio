@@ -49,7 +49,7 @@
         "images/portfolio/tcp-protocol/p1.jpg",
         "images/portfolio/tcp-protocol/p2.jpg"
       ],
-      "url": "https://github.com/uic-cs450/programming-assignment-6-hcedenoindri",
+      "url": "https://github.com/hcedenoindri/tcp-like-protocol",
       "technologies": [
         {
           "class": "devicon-python-plain",
