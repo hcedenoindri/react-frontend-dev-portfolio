@@ -23,8 +23,6 @@ Hello, nice to meet you!
 ![python](https://img.shields.io/badge/-python-grey?style=for-the-badge&logo=python&logoColor=white&labelColor=8E2DE2)
 ![jquery](https://img.shields.io/badge/-jquery-grey?style=for-the-badge&logo=jquery&logoColor=white&labelColor=8E2DE2)
 
-<img src="https://github-readme-stats.vercel.app/api?username=saviomartin&show_icons=true&theme=radical&title_color=8E2DE2&text_color=fff&icon_color=8E2DE2">
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=saviomartin&theme=radical&title_color=8E2DE2&text_color=fff)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=hcedenoindri&theme=radical&title_color=8E2DE2&text_color=fff)
 
 ⭐️ Template from [saviomartin](https://github.com/saviomartin)
