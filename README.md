@@ -6,7 +6,7 @@ Hello, nice to meet you!
 - 😄 My website: 
 - ⚡ Fun fact: I'm a handyman, musician, and car enthusiast.
 
-<a href="https://hcedenoindri.github.io"><img height="30px" src="https://img.shields.io/badge/My%20Website:%20savio.works-8E2DE2?style=for-the-badge&logo=google%20chrome&logoColor=white"/></a>
+<a href="https://hcedenoindri.github.io"><img height="30px" src="https://img.shields.io/badge/My%20Website:%20hcedenoindri-8E2DE2?style=for-the-badge&logo=google%20chrome&logoColor=white"/></a>
 
 ![HTML5](https://img.shields.io/badge/html%205-grey?style=for-the-badge&logo=html5&logoColor=white&labelColor=8E2DE2)
 ![CSS3](https://img.shields.io/badge/css%203-grey?style=for-the-badge&logo=css3&logoColor=white&labelColor=8E2DE2)
