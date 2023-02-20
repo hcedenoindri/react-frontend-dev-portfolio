@@ -14,7 +14,7 @@ Hello, nice to meet you!
 <br>
 ![bootstrap](https://img.shields.io/badge/-bootstrap-grey?style=for-the-badge&logo=bootstrap&logoColor=white&labelColor=8E2DE2)
 ![node](https://img.shields.io/badge/-node-grey?style=for-the-badge&logo=node.js&logoColor=white&labelColor=8E2DE2)
-![java](https://img.shields.io/badge/-java-grey?style=for-the-badge&logo=java&logoColor=white&labelColor=8E2DE2)
+![cpp](https://img.shields.io/badge/-c++-grey?style=for-the-badge&logo=c%2B%2B&logoColor=white&labelColor=8E2DE2)
 ![c](https://img.shields.io/badge/-c-grey?style=for-the-badge&logo=c&logoColor=white&labelColor=8E2DE2)
 <br>
 ![git](https://img.shields.io/badge/-git-grey?style=for-the-badge&logo=git&logoColor=white&labelColor=8E2DE2)
