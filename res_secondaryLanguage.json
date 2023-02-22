@@ -2,7 +2,11 @@
     "basic_info": {
       "titles": [ "Desarrollador Full Stack", "Desarrollador de Software", "Handyman" ],
       "description_header": "Hola!",
-      "description": "Mi nombre es Hector Cedeno-Indriago.",
+      "description": [
+        "Mi nombre es Hector Cedeño-Indriago. Soy un estudiante de pregrado en Ciencias Computacionales en la Universidad de Illinois en Chicago. ",
+        "La Primavera del 2023 será mi último semestre. Aparte de ser estudiante, también soy handyman. He trabajado tiempo completo ",
+        "durante toda my carrera universitaria. Tengo experiencia en desarrollo nativo y web. Gracias por visitar mi portafolio!"
+      ],
       "section_name": {
         "about": "Acerca de mi",
         "projects": "Proyectos",
@@ -11,20 +15,86 @@
       }
     },
     "projects": [
+      {
+        "title": "Compilador para Albatross",
+        "startDate": "09/2022 - 12/2022",
+        "description": [
+          "Este es el proyecto más reciente en el que he participado. Es un compilador hecho para traducir el lenguaje Albatross a código en Assembly.", 
+          "Fue desarrollado bajo la guía, y alrededor del cuerpo de código proveido por el profesor Luis Pina, para el curso de Diseño de Compiladores (CS 473)",  
+          " en la Universidad de Illinois en Chicago."
+        ],
+        "images": [
+          "images/portfolio/compiler/p1.jpg",
+          "images/portfolio/compiler/p2.jpg"
+        ],
+        "url": "https://github.com/hcedenoindri/albatross-compiler",
+        "technologies": [
+          {
+            "class": "devicon-c-plain",
+            "name": "C"
+          }
+        ]
+      },
+      {
+        "title": "Implementación de Protocolo de Redes",
+        "startDate": "01/2022 - 04/2022",
+        "description": [
+          "Este prpyecto se basó en la implementación de un protocolo para redes similar a TCP. El protocolo utiliza multiples algoritmos y estrategias usadas en TCP ",
+          "como las siguientes: 3-way handshakes para establecimiento de conexión, transferencia de datos ordenados usando SYNs y ACKs, retransmisión empezada por ACK retransmission, retransmisión empezada por timeout, ", 
+          "control de flujo con Sliding Window, arranque lento, evitación de congestión usando una Ventana de Congestión, retransmisión rápida, recuperación rápida, calculación de timeout con RTT ponderado, y ", 
+          "4-way handshakes para terminación de conexión. ", 
+          "Este proyecto fue desarrollado bajo la instrucción del profesor Balajee Vamanan, para el curso de Introducción a Redes (CS 450) en la Universidad de Illinois en Chicago."
+        ],
+        "images": [
+          "images/portfolio/tcp-protocol/p1.jpg",
+          "images/portfolio/tcp-protocol/p2.jpg"
+        ],
+        "url": "https://github.com/hcedenoindri/tcp-like-protocol",
+        "technologies": [
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
+          }
+        ]
+      },
+      {
+        "title": "The Plane Game",
+        "startDate": "03/2021 - 04/2021",
+        "description": [
+          "The Plane Game videojuego web hecho con spritesheets y HTML Canvas. Los requisitos para el juego fueron los siguientes: juego de pantalla movediza, usando spritesheets, ",
+          "JavaScript, y HTML Canvas. También requirió el uso de un service worker, haciéndolo una aplicación web descargable. Fue desarrollado para el curso de Tecnologías Web y ",
+          "Multimedia (IT 202) en la Universidad de Illinois en Chicago. El curso fue enseñado por David Hayes."
+        ],
+        "images": [
+          "images/portfolio/plane-game/p1.jpg",
+          "images/portfolio/plane-game/p2.jpg"
+        ],
+        "url": "https://github.com/hcedenoindri/The-Plane-Game",
+        "technologies": [
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML Canvas"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          }
+        ]
+      }
     ],
     "experience": [
       {
-        "company": "TaskRabbit",
+        "company": "Auto-empleado",
         "icon": "fas fa-tools experience-icon",
-        "title": "Tasker",
+        "title": "Handyman",
         "years": "03.2022 - present",
         "mainTech": [
-          "Handyman"
+          "Freelancing"
         ],
         "technologies": [
-          "Power Tools",
-          "Hardware Installation",
-          "Home Improvement"
+          "Herramientas Eléctricas",
+          "Instalación de Equipos",
+          "Mejoras del Hogar"
         ]
       },
       {
@@ -33,53 +103,53 @@
         "title": "Delivery Partner",
         "years": "09.2019 - present",
         "mainTech": [
-          "Food Delivery"
+          "Repartidor de Comida"
         ],
         "technologies": [
-          "Commercial Driving",
-          "Customer Service",
-          "Communication Skills"
+          "Conductor comercial",
+          "Servicio al CLiente",
+          "Habilidades de comunicación"
         ]
       },
       {
         "company": "FedEx Ground",
         "icon": "fas fa-truck-loading experience-icon",
-        "title": "Package Handler",
+        "title": "Manipulador de paquetes",
         "years": "11.2020 - 02.2021",
         "mainTech": [
-          "Loading and Unloading"
+          "Carga y Descarga"
         ],
         "technologies": [
-          "Communcation Skills",
-          "Critical Thinking",
-          "Versatility"
+          "Habilidades de comunicación",
+          "Pensamiento Crítico",
+          "Versatilidad"
         ]
       },
       {
         "company": "UIC Forum",
         "icon": "fas fa-chair experience-icon",
-        "title": "Operations Team Member",
+        "title": "Staff de Operaciones",
         "years": "09.2019 - 02.2020",
         "mainTech": [
-          "Event Staffing"
+          "Staffing para Eventos"
         ],
         "technologies": [
-          "Versatility",
-          "Flexibility",
-          "Critical Thinking"
+          "Versatilidad",
+          "Flexibilidad",
+          "Pensamiento Crítico"
         ]
       },
       {
         "company": "Sims Recycling Solutions",
         "icon": "fas fa-recycle experience-icon",
-        "title": "",
+        "title": "Miembro de Operaciones",
         "years": "08.2017 - 12.2019",
         "mainTech": [
-          "Recycling Operations"
+          "Operaciones de Reciclaje"
         ],
         "technologies": [
-          "Heavy Machinery Use",
-          "Hazmat"
+          "Uso de Maquinaria Industrial",
+          "Materiales peligrosos"
         ]
       }
     ]

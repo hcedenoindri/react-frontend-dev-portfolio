@@ -3,9 +3,9 @@
     "titles": [ "Full Stack Developer", "Software Developer", "Handyman" ],
     "description_header": "Hello!",
     "description": [
-      "I'm Hector Cedeno-Indriago. I am an upcoming Computer Science graduate. This portfolio is a work in progress. ", 
-      "The projects displayed below are course projects. Some have significant portions authored by instructors.", 
-      " However, none of them have a lack in hard work and use of the course-taught knowledge from my part. Thanks for reviewing my portfolio!"       
+      "I'm Hector Cedeno-Indriago. I am an upcoming Computer Science graduate from the University of Illinois-Chicago.", 
+      "I am also a handyman and I have worked full-time for my entire academic career. I have experience with native a web app development. ", 
+      "Thanks for reviewing my portfolio!"       
     ],
     "section_name": {
       "about": "About me",
@@ -54,6 +54,30 @@
         {
           "class": "devicon-python-plain",
           "name": "Python"
+        }
+      ]
+    },
+    {
+      "title": "The Plane Game",
+      "startDate": "03/2021 - 04/2021",
+      "description": [
+        "The Plane Game is a web based videogame made with spritesheets and HTML Canvas. The requirements for the game were as follows: side-scrolling game, using spritesheets, ",
+        "JavaScript, and HTML Canvas. It was also required for it to have a service worker, making it a downloadable web application. It was developed for the Web and ",
+        "Multimedia Technology (IT 202) course in the University of Illinois-Chicago. The course was taught by David Hayes."
+      ],
+      "images": [
+        "images/portfolio/plane-game/p1.jpg",
+        "images/portfolio/plane-game/p2.jpg"
+      ],
+      "url": "https://github.com/hcedenoindri/The-Plane-Game",
+      "technologies": [
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML Canvas"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
         }
       ]
     }
