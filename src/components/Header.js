@@ -19,9 +19,15 @@ class Header extends Component {
   setTheme() {
     var dataThemeAttribute = "data-theme";
     var body = document.body;
-    var newTheme =
-      body.getAttribute(dataThemeAttribute) === "dark" ? "light" : "dark";
+    var newTheme = body.getAttribute(dataThemeAttribute) === "dark" ? "light" : "dark";
     body.setAttribute(dataThemeAttribute, newTheme);
+    this.setHeaderIconColor(newTheme)
+  }
+
+  setHeaderIconColor(theme) {
+    var newColor = theme === "dark" ? "white" : "black";
+    var headerIcon = document.body.getElementsByClassName('header-icon')[0];
+    headerIcon.setAttribute("color", newColor);
   }
 
   render() {
@@ -39,7 +45,7 @@ class Header extends Component {
         <div className="row aligner" style={{height: '100%'}}>
           <div className="col-md-12">
             <div>
-              <span className="iconify header-icon" data-icon="la:laptop-code" data-inline="false"></span>
+              <span className="iconify header-icon" data-icon="la:laptop-code" data-inline="false" color="black"></span>
               <br/>
               <h1 className="mb-0">
                 <Typical steps={[name]} wrapper="p" />
