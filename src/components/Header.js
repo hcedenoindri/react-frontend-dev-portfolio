@@ -26,8 +26,9 @@ class Header extends Component {
 
   setHeaderIconColor(theme) {
     var newColor = theme === "dark" ? "white" : "black";
-    var headerIcon = document.body.getElementsByClassName('header-icon')[0];
-    headerIcon.setAttribute("color", newColor);
+    var svgForIcon = document.body.getElementsByClassName('header-icon')[0];
+    var icon = svgForIcon.getElementsByTagName("path")[0];
+    icon.setAttribute("fill", newColor);
   }
 
   render() {
